@@ -1,4 +1,4 @@
-# SiftFunnel: Probing and Resisting Model Inversion Attack in Collaborative Inference
+# SiftFunnel
 
 This repository contains the official implementation of the paper:  
 **"How breakable is privacy: probing and resisting model inversion attack in collaborative inference"**  
@@ -11,9 +11,9 @@ This project provides implementations for different types of Model Inversion Att
   - `train_inversion.py`: Training script for generative-based MIA.
   - `inversion_model_packages.py`: Package containing inversion models used for this attack.
 
-- **MINE-based MIA** (Mutual Information Neural Estimation-based Attack):
-  - `Mutual_Information_estimator.py`: Script to train the MINE-based attack model.
-  - `T_model_packages.py`: Package containing models used for MINE estimation.
+- **MINE**:
+  - `Mutual_Information_estimator.py`: Script to train the MINE.
+  - `T_model_packages.py`: Package containing models used for MINE estimator.
 
 - **Target Neural Network Training**:
   - `train_classifier.py`: Script for training target neural networks.
@@ -46,7 +46,7 @@ python train_classifier.py
 python train_inversion.py
 ```
 
-### Performing Mutual Information Neural Estimation-based Attack
+### Performing Mutual Information Neural Estimator
 ```bash
 python Mutual_Information_estimator.py
 ```
