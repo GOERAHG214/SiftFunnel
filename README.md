@@ -59,7 +59,7 @@ python information_siftfunnel.py
 ## Citation
 If you use this code, please cite our paper:
 ```bibtex
-@article{your_paper_citation,
+@article{siftfunnel2025,
   author    = {anonymous},
   title     = {How breakable is privacy: probing and resisting model inversion attack in collaborative inference},
   journal   = {ArXiv},
